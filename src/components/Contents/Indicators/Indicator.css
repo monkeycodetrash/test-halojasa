@@ -1,0 +1,28 @@
+.Indicator {
+    max-width: 1080px;
+    margin: auto;
+}
+
+.Indicator p {
+    font-weight: bold;
+    font-size: 1.5em;
+    display: block;
+    text-align: center;
+}
+
+.Flex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Flex > div {
+    background-color: lightsteelblue;
+    margin: 10px;
+    text-align: center;
+    padding: 15px 7px;
+    border: 2px solid #eee;
+    width: 250px;
+    box-shadow: 0px 2px 2px #eee;
+    color: white;
+}
