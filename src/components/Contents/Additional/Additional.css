@@ -5,19 +5,6 @@
     padding: 25px 0px;
 }
 
-.Additional p {
-    font-weight: bold;
-    color: salmon;
-    font-size: 1.2em;
-}
-
-.Additional span > a {
-    display: block;
-    text-decoration: none;
-    color: tomato;
-    margin-bottom: 10px;
-}
-
 .Additional input {
     padding: 7px 5px;
     border: 1px solid darkorange;
@@ -25,7 +12,6 @@
     outline: 0;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
-    
 }
 
 .Additional button {
@@ -58,4 +44,22 @@
 .Flex > div {
     margin: 10px;
     width: 310px;
+}
+
+.Flex p {
+    font-weight: bold;
+    color: salmon;
+    font-size: 1.2em;
+}
+
+.Flex span > a {
+    display: block;
+    text-decoration: none;
+    color: tomato;
+    margin-bottom: 10px;
+}
+
+.Flex span > a:hover {
+    color: salmon;
+    text-decoration: underline;
 }
