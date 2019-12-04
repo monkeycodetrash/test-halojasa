@@ -8,15 +8,15 @@ const additional = () => {
                 <div className={cssAdditional.Flex}>
                     <div>
                         <p>Check out our Blog!</p>
-                        <span><a href="#">How to drink water</a></span>
-                        <span><a href="#">Our product is the best</a></span>
-                        <span><a href="#">How to start a kickstarter</a></span>
+                        <span><a>How to drink water</a></span>
+                        <span><a>Our product is the best</a></span>
+                        <span><a>How to start a kickstarter</a></span>
                     </div>
                     <div>
                         <p>Company Event</p>
-                        <span><a href="#">Event Schedule</a></span>
-                        <span><a href="#">Product Launches</a></span>
-                        <span><a href="#">Announcement</a></span>
+                        <span><a>Event Schedule</a></span>
+                        <span><a>Product Launches</a></span>
+                        <span><a>Announcement</a></span>
                     </div>
                     <div>
                         <p>Join Our Newsletter</p>
