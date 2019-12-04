@@ -1,4 +1,61 @@
 .Additional {
+    max-width: 100%;
+    margin: auto;
+    background: lightblue;
+    padding: 25px 0px;
+}
+
+.Additional p {
+    font-weight: bold;
+    color: salmon;
+    font-size: 1.2em;
+}
+
+.Additional span > a {
+    display: block;
+    text-decoration: none;
+    color: tomato;
+    margin-bottom: 10px;
+}
+
+.Additional input {
+    padding: 7px 5px;
+    border: 1px solid darkorange;
+    border-radius: 0px;
+    outline: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    
+}
+
+.Additional button {
+    padding: 7px 20px;
+    background: coral;
+    border: 1px solid coral;
+    color: white;
+    cursor: pointer;
+    outline: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.Additional button:hover {
+    border: 1px solid coral;
+    background: tomato;
+    color: white;
+}
+
+.Wrap {
     max-width: 1080px;
     margin: auto;
+}
+
+.Flex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Flex > div {
+    margin: 10px;
+    width: 310px;
 }
