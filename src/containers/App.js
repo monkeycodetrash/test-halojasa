@@ -5,11 +5,13 @@ import Action from '../components/Contents/CallToAction/CallToAction';
 import Benefit from '../components/Contents/Benefits/Benefit';
 import Indicator from '../components/Contents/Indicators/Indicator';
 import Additional from '../components/Contents/Additional/Additional';
+import Header from '../components/Header/Header';
 
 class App extends Component {
   render() {
     return (
       <div className={cssFile.App}>
+        <Header />
         <Title />
         <Action />
         <Benefit />

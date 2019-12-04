@@ -1,0 +1,37 @@
+.Header {
+    background: salmon;
+    position: fixed;
+    top: 0;
+    left: 0px;
+    right: 0px;
+    z-index: 5;
+    padding: 10px 0px;
+    box-shadow: 2px 1px 20px 0px grey;
+}
+.Header img {
+    max-width: 100px;
+}
+
+.WrapHeader {
+    width: 1080px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.WrapHeader div, nav {
+    display: flex;
+}
+
+.WrapHeader nav span {
+    padding: 10px;
+    margin: 0px 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.WrapHeader nav span:hover {
+    color: tomato;
+}
