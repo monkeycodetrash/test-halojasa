@@ -1,5 +1,31 @@
 .Action {
-    text-align: center;
-    max-width: 1080px;
+    width: 100%;
     margin: auto;
+    padding: 70px 0px;
+    text-align: center;
+    background: salmon;
+}
+
+.Action h3 {
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+    display: block;
+}
+
+.Action button {
+    background: white;
+    outline: 0;
+    border: 1px solid white;
+    padding: 15px 25px;
+    color: salmon;
+    font-weight: bold;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.Action button:hover {
+    background: tomato;
+    color: white;
+    border: 1px solid white;
 }

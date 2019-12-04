@@ -1,6 +1,7 @@
 .Benefit {
     max-width: 1080px;
     margin: auto;
+    padding: 25px 0px;
 }
 
 .Benefit p {
@@ -8,6 +9,7 @@
     font-size: 1.5em;
     display: block;
     text-align: center;
+    color: tomato;
 }
 
 .Flex {
@@ -17,18 +19,36 @@
 }
 
 .Flex > div {
-    background-color: lightsteelblue;
     margin: 10px;
     text-align: center;
     width: 300px;
-    padding: 15px 7px;
-    border: 2px solid #eee;
-    box-shadow: 0px 2px 2px #eee;
+    box-shadow: 9px 7px 2px #eee;
+}
+
+.Flex > div > div {
+    padding: 15px 8px;
+}
+
+.Flex > div > div:first-child {
+    background: salmon;
     color: white;
+    text-align: left;
+    border-left: 2px solid rgb(202, 202, 202);
+    border-right: 2px solid rgb(202, 202, 202);
+    border-top: 2px solid rgb(202, 202, 202);
+}
+
+.Flex > div > div:nth-child(2) {
+    background: white;
+    color: salmon;
+    text-align: left;
+    font-style: italic;
+    border-left: 2px solid rgb(202, 202, 202);
+    border-right: 2px solid rgb(202, 202, 202);
+    border-bottom: 2px solid rgb(202, 202, 202);
 }
 
 .Flex > div:hover {
-    border: 2px solid lightskyblue;
-    color: lightskyblue;
-    background: lightslategray;
+    background: tomato;
+    box-shadow: 9px 7px 2px tan;
 }
