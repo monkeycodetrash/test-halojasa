@@ -20,11 +20,12 @@
     justify-content: space-between;
 }
 
-.WrapHeader div, nav {
+.WrapHeader div, .Menu {
     display: flex;
+    flex-flow: row wrap;
 }
 
-.WrapHeader nav span {
+.Menu span {
     padding: 10px;
     margin: 0px 10px;
     color: white;
@@ -33,6 +34,43 @@
     cursor: pointer;
 }
 
+.Menu span:hover {
+    color: tomato;
+}
+
 .WrapHeader nav span:hover {
     color: tomato;
 }
+
+.Hamburger {
+    display: none;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .Menu span {
+        display: none;
+    }
+
+    .WrapHeader label {
+        display: flex;
+        margin-right: 15px;
+    }
+
+    .WrapHeader {
+        width: 100%;
+    }
+
+    .Header img {
+        max-width: 100px;
+        margin-left: 15px;
+    }
+
+    .Hamburger {
+        display: flex;
+        cursor: pointer;
+        font-size: 26px;
+        color: white;
+        margin-right: 15px;
+    }
+  }
